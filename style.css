@@ -1,0 +1,40 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: darkslategray;
+    color: darkgoldenrod;
+    display: flex;/*ativa o flex-box*/
+    flex-direction: row;/*mexe na direção*/
+    justify-content:center;/*alinhamento eixo principal*/
+    align-items:center;/**/
+    gap:10%;
+    flex-wrap: wrap;
+}
+.armas{
+    width: 250px;
+    height: 250px;
+    border-color: darkseagreen;
+    border: 5px solid darkolivegreen;
+    border-radius: 5px;
+    background-color: darkcyan;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px black;
+}
+img{
+    width: 240px;
+    height: 210px;
+    display: flex;
+    flex-direction: row;/*mexe na direção*/
+    justify-content:center;/*alinhamento eixo principal*/
+    align-items:center;/**/
+    gap:10%;
+}
